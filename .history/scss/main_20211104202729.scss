@@ -1,0 +1,9 @@
+// Import
+@import "./globals";
+@import "./variables";
+@import "./mixin";
+
+//Responsive
+@include minWidth(1024px) {
+  background-color: red;
+} ;

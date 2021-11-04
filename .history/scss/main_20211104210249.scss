@@ -1,0 +1,32 @@
+// Import
+@import "./globals";
+@import "./variables";
+@import "./mixin";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+header {
+  .logo a {
+  }
+  ul.list-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li:not(:last-child) {
+    padding-right: 40px;
+  }
+}
